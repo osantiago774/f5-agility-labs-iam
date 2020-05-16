@@ -19,7 +19,7 @@ interfaces (HTTPS, SSH).
 
    - Password: **Agility1**
 
-#. Access the **BIG-IP** GUI **https://10.128.1.245** (you can double-click on the red “f5 Big-IP” shortcut icon on the Windows desktop).
+#. Access the **BIG-IP** GUI **https://10.1.1.4** (you can double-click on the red “f5 Big-IP” shortcut icon on the Windows desktop).
 
 #. Login into the BIG-IP Configuration Utility with the following credentials:
 
@@ -49,17 +49,17 @@ The following components have been included in your lab environment:
 .. NOTE::
   The following entries have been added in the local hosts file of your Jumphost:
 
-  - 10.128.10.10 www.f5demo.com
-  - 10.128.10.11 myvpn.f5demo.com
-  - 10.128.20.200 www2.f5demo.com
-  - 10.128.10.11 webtop.f5demo.com
-  - 10.128.10.12 forms.f5demo.com
-  - 10.128.10.12 forms.f5demo.com
-  - 10.128.10.13 basic.f5demo.com
-  - 10.128.10.13 app1.f5demo.com
-  - 10.128.10.13 app2.f5demo.com
-  - 10.128.10.13 app3.f5demo.com
-  - 10.128.1.245 bigip1.f5demo.com
+  - 10.1.10.10 www.f5demo.com
+  - 10.1.10.11 myvpn.f5demo.com
+  - 10.1.20.200 www2.f5demo.com
+  - 10.1.10.11 webtop.f5demo.com
+  - 10.1.10.12 forms.f5demo.com
+  - 10.1.10.12 forms.f5demo.com
+  - 10.1.10.13 basic.f5demo.com
+  - 10.1.10.13 app1.f5demo.com
+  - 10.1.10.13 app2.f5demo.com
+  - 10.1.10.13 app3.f5demo.com
+  - 10.1.1.245 bigip1.f5demo.com
 
 
 Lab Components
@@ -76,16 +76,16 @@ components:
      - **VLAN/IP Address(es)**
      - **Credentials**
    * - BIG-IP
-     - - **Management:** 10.128.1.245
-       - **Internal:** 10.128.20.245
-       - **External:** 10.128.10.245
+     - - **Management:** 10.1.1.245
+       - **Internal:** 10.1.20.245
+       - **External:** 10.1.10.245
      - ``admin``/``admin``
    * - Jumphost
-     - - **Management:** 10.128.1.5
-       - **External:** 10.128.10.5
+     - - **Management:** 10.1.1.5
+       - **External:** 10.1.10.5
      - ``user``/``Agility1``
    * - Lab Server
-     - - **Internal:** 10.128.20.201
+     - - **Internal:** 10.1.20.201
      - ``administrator``/``Agility2018``
 
 
